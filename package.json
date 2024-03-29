@@ -1,0 +1,22 @@
+{
+  "name": "bundlewharf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wharfkit/session": "^1.2.8",
+    "@wharfkit/wallet-plugin-anchor": "^1.3.4",
+    "@wharfkit/wallet-plugin-cloudwallet": "^1.3.3",
+    "@wharfkit/wallet-plugin-wombat": "^1.2.2",
+    "@wharfkit/web-renderer": "^1.2.4"
+  },
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2",
+    "vite": "^5.2.6"
+  }
+}
